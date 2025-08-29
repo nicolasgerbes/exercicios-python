@@ -24,8 +24,8 @@ def jogar():
   while True:
     chute = int(input(f'Digite um numero entre 1 e {nivel_escolhido}: '))
     palpites.append(chute)
-    print(f' palpites {palpites}')
     limpar_terminal()
+    print(f'Palpites {palpites}')
     if chute == numero_secreto:
       print(f'Parabéns, você acertou o numero {numero_secreto}')
       break
